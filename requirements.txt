@@ -2,6 +2,9 @@
 pydantic-ai>=0.0.14
 pydantic>=2.0.0
 
+# Google Gemini (default AI model)
+google-generativeai>=0.8.0
+
 # Web Crawling and Scraping
 crawl4ai>=0.7.6
 beautifulsoup4>=4.12.0
