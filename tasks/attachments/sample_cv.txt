@@ -1,0 +1,51 @@
+CURRICULUM VITAE
+
+Name: Alex Thompson
+Email: alex.thompson@example.com
+Current Position: Research Assistant in Computer Science
+
+EDUCATION
+- Bachelor of Science in Computer Science, XYZ University, 2023
+  GPA: 3.8/4.0
+
+RESEARCH INTERESTS
+- Deep Learning and Neural Networks
+- Computer Vision and Image Recognition
+- Natural Language Processing
+- Reinforcement Learning
+- AI Ethics and Fairness
+
+RESEARCH EXPERIENCE
+
+Research Assistant | XYZ University AI Lab | 2022-Present
+- Developed deep learning models for medical image segmentation
+- Published 2 papers on convolutional neural networks for diagnostic imaging
+- Worked with PyTorch, TensorFlow, and CUDA for GPU acceleration
+- Collaborated with medical professionals on real-world applications
+
+Undergraduate Research | Computer Vision Project | 2021-2022
+- Implemented object detection algorithms using YOLO and Faster R-CNN
+- Created dataset of 10,000+ annotated images
+- Achieved 92% accuracy on custom object detection task
+
+PUBLICATIONS
+1. "Deep Learning Approaches for Medical Image Segmentation" - Conference Paper, 2023
+2. "Transfer Learning in Diagnostic Imaging" - Workshop Paper, 2023
+
+TECHNICAL SKILLS
+- Programming: Python, C++, Java, R
+- ML Frameworks: PyTorch, TensorFlow, scikit-learn, Keras
+- Tools: Git, Docker, Linux, AWS, Google Cloud
+- Libraries: NumPy, Pandas, OpenCV, NLTK, Hugging Face Transformers
+
+AWARDS & HONORS
+- Best Undergraduate Research Award, 2023
+- Dean's List, 2020-2023
+- Hackathon Winner - AI for Healthcare Challenge, 2022
+
+LANGUAGES
+- English: Native
+- Spanish: Intermediate
+
+GOALS
+Seeking fully funded PhD program in Computer Vision or Deep Learning to advance research in medical AI applications and contribute to making healthcare more accessible through AI-powered diagnostic tools.

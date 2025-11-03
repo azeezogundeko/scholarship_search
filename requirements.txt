@@ -1,0 +1,43 @@
+# Core AI Framework
+pydantic-ai>=0.0.14
+pydantic>=2.0.0
+
+# Web Crawling and Scraping
+crawl4ai>=0.7.6
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+playwright>=1.40.0
+
+# Search APIs
+google-api-python-client>=2.0.0
+requests>=2.31.0
+
+# Storage
+gspread>=6.0.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.2.0
+faiss-cpu>=1.7.4
+# For GPU support, replace with: faiss-gpu>=1.7.4
+
+# Scheduling
+apscheduler>=3.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+aiofiles>=23.0.0
+httpx>=0.25.0
+
+# Embeddings (for FAISS)
+sentence-transformers>=2.2.0
+
+# CLI
+typer>=0.9.0
+rich>=13.0.0
+
+# Date handling
+python-dateutil>=2.8.0
+
+# Markdown parsing
+python-frontmatter>=1.0.0
