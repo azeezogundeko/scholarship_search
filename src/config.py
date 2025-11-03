@@ -17,7 +17,8 @@ class Config(BaseModel):
     """Application configuration loaded from environment variables."""
 
     # AI Model
-    ai_model: str = Field(default="openai:gpt-4o", description="AI model to use")
+    ai_model: str = Field(default="gemini-1.5-pro", description="AI model to use")
+    google_genai_api_key: Optional[str] = Field(default=None, description="Google Generative AI API key")
     openai_api_key: Optional[str] = Field(default=None, description="OpenAI API key")
     anthropic_api_key: Optional[str] = Field(default=None, description="Anthropic API key")
 
@@ -49,7 +50,8 @@ class Config(BaseModel):
     def from_env(cls) -> "Config":
         """Load configuration from environment variables."""
         return cls(
-            ai_model=os.getenv("AI_MODEL", "openai:gpt-4o"),
+            ai_model=os.getenv("AI_MODEL", "gemini-1.5-pro"),
+            google_genai_api_key=os.getenv("GOOGLE_GENAI_API_KEY"),
             openai_api_key=os.getenv("OPENAI_API_KEY"),
             anthropic_api_key=os.getenv("ANTHROPIC_API_KEY"),
             google_api_key=os.getenv("GOOGLE_API_KEY"),

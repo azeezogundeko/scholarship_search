@@ -16,6 +16,7 @@ An AI-powered autonomous browser agent built with PydanticAI and Crawl4AI for we
 - **Task Scheduling**: Recurring tasks (daily, weekly, monthly, or cron-based)
 - **Flexible Task Definition**: Define tasks in Markdown files with YAML frontmatter
 - **Reasoning & Planning**: PydanticAI-powered agent with full reasoning capabilities
+- **Powered by Google Gemini**: Uses Gemini 1.5 Pro for advanced AI capabilities
 
 ## Installation
 
@@ -53,9 +54,15 @@ cp .env.example .env
 Edit `.env` file with your credentials:
 
 ```env
-# AI Model (OpenAI, Anthropic, etc.)
-AI_MODEL=openai:gpt-4o
-OPENAI_API_KEY=your_key_here
+# AI Model (using Google Gemini by default)
+AI_MODEL=gemini-1.5-pro
+GOOGLE_GENAI_API_KEY=your_google_ai_studio_api_key
+
+# Alternative models:
+# AI_MODEL=openai:gpt-4o
+# OPENAI_API_KEY=your_key_here
+# AI_MODEL=anthropic:claude-sonnet-4-0
+# ANTHROPIC_API_KEY=your_key_here
 
 # Search APIs
 GOOGLE_API_KEY=your_key
@@ -66,6 +73,22 @@ BRAVE_API_KEY=your_key
 GOOGLE_SERVICE_ACCOUNT_JSON={"type":"service_account",...}
 DEFAULT_SHEET_ID=your_sheet_id
 ```
+
+### Getting API Keys
+
+**Google Gemini API Key** (Primary AI Model):
+1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Create a new API key
+3. Add it to `.env` as `GOOGLE_GENAI_API_KEY`
+
+**Google Custom Search** (for web search):
+1. Get API key from [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
+2. Create a Custom Search Engine at [Programmable Search Engine](https://programmablesearchengine.google.com/)
+3. Add both to `.env`
+
+**Brave Search** (alternative/fallback search):
+1. Sign up at [Brave Search API](https://brave.com/search/api/)
+2. Get your API key and add to `.env`
 
 ### Google Sheets Setup
 

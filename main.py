@@ -172,6 +172,8 @@ def config_info():
         return "[green]✓[/green]" if value else "[red]✗[/red]"
 
     table.add_row("AI Model", config.ai_model, "✓")
+    table.add_row("Google Gemini API Key", "***" if config.google_genai_api_key else "Not set",
+                  check_status(config.google_genai_api_key))
     table.add_row("OpenAI API Key", "***" if config.openai_api_key else "Not set",
                   check_status(config.openai_api_key))
     table.add_row("Google API Key", "***" if config.google_api_key else "Not set",
